@@ -26,14 +26,13 @@ export default {
 html{
   background-image: url('static/hookah.jpg');
   background-size: cover;
-  padding: 2rem;
 }
 .body{
   grid-area: 2/1/span 3/span 4;
 }
 .container{
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 10px;
   width: 100%;
