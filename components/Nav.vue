@@ -54,25 +54,25 @@
             </li>
           </nuxt-link>
         </ul>
-         <div class="hours_div">
-      <h1>
-        (440)-555-5555
-      </h1>
-      <h1 class="hours_open">
-        CLOSED
-      </h1>
-      <tr class="day_week">
-        Monday
-      </tr>
-      <h1 class="hours_open">
-        Open 5PM-2AM
-      </h1>
-      <div v-for="day in openDays" :key="day.id" class="days">
-        <tr class="day_week">
-          {{ day }}
-        </tr>
-      </div>
-    </div>
+        <div class="hours_div">
+          <h1>
+            (440)-555-5555
+          </h1>
+          <h1 class="hours_open">
+            CLOSED
+          </h1>
+          <tr class="day_week">
+            Monday
+          </tr>
+          <h1 class="hours_open">
+            Open 5PM-2AM
+          </h1>
+          <div v-for="day in openDays" :key="day.id" class="days">
+            <tr class="day_week">
+              {{ day }}
+            </tr>
+          </div>
+        </div>
       </Sidebar>
     </SideMenu>
   </nav>
@@ -113,9 +113,9 @@ color: black;
     color: bisque;
     font-size: x-large;
     padding: 0.5rem;
-	display: flex;
-	flex-direction: column;
-	padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
 }
 .hours_open{
 color: black;
@@ -141,7 +141,7 @@ nav ul {
   border-style: solid;
   border-radius: 8px;
   list-style: none;
-	}
+    }
 li {
   color: bisque;
   font-family:'Russo One', sans-serif;
