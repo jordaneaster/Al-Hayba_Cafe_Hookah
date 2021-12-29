@@ -44,10 +44,7 @@ footer{
   position: fixed;
   grid-area: 5/1/span 1/span 4;
 }
-html{
-  background-image: url('static/hookah.jpg');
-  background-size: contain;
-}
+
 .body{
   grid-area: 3/1/span 1/span 4;
   display: flex;
@@ -84,8 +81,8 @@ html{
   grid-area: 1/1/span 1/span 4;
   background-image: url('static/hero2.jpg');
   background-size: cover;
-  background-position-y: center;
-  opacity: 70%;
+  background-position-y: 19%;
+  opacity: 80%;
 }
 footer{
   grid-area: 5/1/span 1/span 4;

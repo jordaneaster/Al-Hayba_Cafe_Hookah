@@ -15,8 +15,5 @@ export default {
 </script>
 
 <style>
-html{
-  background-image: url('static/hookah.jpg');
-  background-size: cover;
-}
+
 </style>

@@ -144,9 +144,10 @@ nav ul {
     }
 li {
   color: white;
-  font-family:'Impact''Russo One', sans-serif;
-  font-size: x-large;
-  font-style: oblique;
+  font-family:'Russo One', serif;
+  font-size: xx-large;
+  font-stretch: semi-expanded;
+  font-weight: 800;
   letter-spacing: 0.3rem;
   text-shadow: 2rem;
   box-shadow: grey;
