@@ -1,36 +1,34 @@
 <template>
-  <footer>
-    <div class="footer-container">
-      <div class="footerBox">
-        <div class="footer-left-item">
-          <n-link class="footerRoute" to="/">
-            Home
-          </n-link>
-          <n-link class="footerRoute" to="/reservations">
-            Reservations
-          </n-link>
-          <n-link class="footerRoute" to="/about">
-            About
-          </n-link>
-          <n-link class="footerRoute" to="/contact">
-            Contact
-          </n-link>
-        </div>
-        <div class="footer-align">
-          <img class="socialmedia" src="../static/icn-facebook.svg" alt="facebook">
-          <img class="socialmedia" src="../static/icn-instagram.svg" alt="instagram">
-          <img class="socialmedia" src="../static/icn-negative.svg" alt="twitter">
-        </div>
+  <div class="footer-container">
+    <div class="footerBox">
+      <div class="footer-left-item">
+        <n-link class="footerRoute" to="/">
+          Home
+        </n-link>
+        <n-link class="footerRoute" to="/reservations">
+          Reservations
+        </n-link>
+        <n-link class="footerRoute" to="/about">
+          About
+        </n-link>
+        <n-link class="footerRoute" to="/contact">
+          Contact
+        </n-link>
       </div>
-      <div class="location">
-        <img class="socialmedia" src="../static/location.svg" alt="point">
-        <p> Al Hayba Hookah Lounge </p>
-        <p> 6454 Pearl Road </p>
-        <p> Parma Heights, Ohio </p>
-        <p> 44130 </p>
+      <div class="footer-align">
+        <img class="socialmedia" src="../static/icn-facebook.svg" alt="facebook">
+        <img class="socialmedia" src="../static/icn-instagram.svg" alt="instagram">
+        <img class="socialmedia" src="../static/icn-negative.svg" alt="twitter">
       </div>
     </div>
-  </footer>
+    <div class="location">
+      <img class="socialmedia" src="../static/location.svg" alt="point">
+      <p> Al Hayba Hookah Lounge </p>
+      <p> 6454 Pearl Road </p>
+      <p> Parma Heights, Ohio </p>
+      <p> 44130 </p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -52,16 +50,8 @@ export default {}
 }
 .footer-container{
   display: grid;
-  grid-template-rows: 100%;
+  grid-template-rows: 400px;
   grid-template-columns: 1fr 1fr 1fr;
-}
-footer{
-  width: 100%;
-  background-color:firebrick;
-  opacity: 80%;
-  border: 1px;
-  border-radius: 12px;
-  position:sticky
 }
 .footer-align{
    display: flex;

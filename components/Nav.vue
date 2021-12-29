@@ -4,10 +4,18 @@
       Al Hayba Hookah Lounge
     </h1>
     <ul>
-      <li>Home</li>
-      <li>Reservations</li>
-      <li>About</li>
-      <li>Contact</li>
+      <nuxt-link class="link" to="/">
+        <li>Home</li>
+      </nuxt-link>
+      <nuxt-link class="link" to="/Reservations">
+        <li>Reservations</li>
+      </nuxt-link>
+      <nuxt-link class="link" to="/Hours">
+        <li>About</li>
+      </nuxt-link>
+      <nuxt-link class="link" to="/Contact">
+        <li>Contact</li>
+      </nuxt-link>
     </ul>
   </nav>
 </template>
@@ -17,6 +25,9 @@ export default {}
 </script>
 
 <style scoped>
+.link{
+  color: bisque;
+}
 nav ul {
   display: flex;
   flex-direction: row;
