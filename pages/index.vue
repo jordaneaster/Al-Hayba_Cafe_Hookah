@@ -53,9 +53,8 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
-  width: 100%;
-  background-color: black;
+ background-image: url('static/hero3.jpg');
+  background-size: cover;  width: 100%;
 }
 .body2{
   grid-area: 2/1/span 1/span 4;
@@ -69,7 +68,8 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: black;
+  background-image: url('static/hero3.jpg');
+  background-size: cover;
   width: 100%;
 }
 .container{

@@ -1,18 +1,18 @@
 <template>
   <div class="hero_container">
-    <nuxt-link to="/Services">
+    <nuxt-link to="/events">
       <button class="btn" @click="log">
-        <img src="../static/Services.png">
+        <img src="../static/events.png">
       </button>
     </nuxt-link>
-    <nuxt-link to="/Specials">
+    <nuxt-link to="/shop">
       <button class="btn" @click="log">
-        <img src="../static/specials.png">
+        <img src="../static/smoke.png">
       </button>
     </nuxt-link>
-    <nuxt-link to="/Reservations">
+    <nuxt-link to="/rules">
       <button class="btn" @click="log">
-        <img src="../static/reservations.png">
+        <img src="../static/rules.png">
       </button>
     </nuxt-link>
   </div>

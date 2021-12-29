@@ -1,16 +1,16 @@
 <template>
   <div class="hero_container">
-    <nuxt-link to="/Services">
+    <nuxt-link to="/services">
       <button class="btn" @click="log">
         <img src="../static/Services.png">
       </button>
     </nuxt-link>
-    <nuxt-link to="/Specials">
+    <nuxt-link to="/specials">
       <button class="btn" @click="log">
         <img src="../static/specials.png">
       </button>
     </nuxt-link>
-    <nuxt-link to="/Reservations">
+    <nuxt-link to="/reservations">
       <button class="btn" @click="log">
         <img src="../static/reservations.png">
       </button>

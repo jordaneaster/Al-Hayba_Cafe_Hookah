@@ -7,26 +7,129 @@
       <nuxt-link class="link" to="/">
         <li>Home</li>
       </nuxt-link>
-      <nuxt-link class="link" to="/Reservations">
-        <li>Reservations</li>
-      </nuxt-link>
       <nuxt-link class="link" to="/Hours">
         <li>About</li>
       </nuxt-link>
       <nuxt-link class="link" to="/Contact">
         <li>Contact</li>
       </nuxt-link>
+      <BurgerMenu />
     </ul>
+    <SideMenu>
+      <Sidebar>
+        <ul class="sidebar-panel-nav">
+          <nuxt-link to="/">
+            <li class="link2">
+              Home
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/services">
+            <li class="link2">
+              Hookah Services
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/reservations">
+            <li class="link2">
+              Reservations
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/events">
+            <li class="link2">
+              Events
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/specials">
+            <li class="link2">
+              Specials
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/shop">
+            <li class="link2">
+              Smoke Shop
+            </li>
+          </nuxt-link>
+          <nuxt-link to="/rules">
+            <li class="link2">
+              Rules
+            </li>
+          </nuxt-link>
+        </ul>
+         <div class="hours_div">
+      <h1>
+        (440)-555-5555
+      </h1>
+      <h1 class="hours_open">
+        CLOSED
+      </h1>
+      <tr class="day_week">
+        Monday
+      </tr>
+      <h1 class="hours_open">
+        Open 5PM-2AM
+      </h1>
+      <div v-for="day in openDays" :key="day.id" class="days">
+        <tr class="day_week">
+          {{ day }}
+        </tr>
+      </div>
+    </div>
+      </Sidebar>
+    </SideMenu>
   </nav>
 </template>
 
 <script>
-export default {}
+import SideMenu from '../components/SideMenu.vue'
+import BurgerMenu from '../components/BurgerMenu.vue'
+export default {
+  components: {
+    BurgerMenu,
+    SideMenu
+  },
+  data () {
+    return {
+      openDays: {
+        t: 'Tuesday',
+        w: 'Wednesday',
+        th: 'Thursday',
+        f: 'Friday',
+        s: 'Saturday',
+        sn: 'Sunday'
+      },
+      closedDays: {
+        m: 'Monday'
+      }
+    }
+  }
+}
 </script>
 
 <style scoped>
+.day_week{
+font-size: larger;
+color: black;
+}
+.hours_div{
+    color: bisque;
+    font-size: x-large;
+    padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.hours_open{
+color: black;
+}
+.pages{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
 .link{
   color: bisque;
+}
+.link2{
+  color: black;
 }
 nav ul {
   display: flex;
@@ -38,7 +141,7 @@ nav ul {
   border-style: solid;
   border-radius: 8px;
   list-style: none;
-}
+	}
 li {
   color: bisque;
   font-family:'Russo One', sans-serif;
@@ -57,6 +160,11 @@ h1 {
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
+}
+.sidebar-panel-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 @-webkit-keyframes glow {

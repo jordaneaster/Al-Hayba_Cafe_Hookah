@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <Nav />
-    <h1>
-      SPECIALS!
-    </h1>
-  </div>
+  <Nav />
 </template>
 
 <script>
@@ -16,6 +11,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
