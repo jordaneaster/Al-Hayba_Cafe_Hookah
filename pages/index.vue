@@ -74,7 +74,7 @@ html{
 }
 .container{
   display: grid;
-  grid-template-rows: 160px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   height: 100%;
@@ -82,6 +82,10 @@ html{
 }
 .nav_bar{
   grid-area: 1/1/span 1/span 4;
+  background-image: url('static/hero2.jpg');
+  background-size: cover;
+  background-position-y: center;
+  opacity: 70%;
 }
 footer{
   grid-area: 5/1/span 1/span 4;

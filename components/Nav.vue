@@ -143,11 +143,13 @@ nav ul {
   list-style: none;
     }
 li {
-  color: bisque;
-  font-family:'Russo One', sans-serif;
+  color: white;
+  font-family:'Impact''Russo One', sans-serif;
   font-size: x-large;
   font-style: oblique;
   letter-spacing: 0.3rem;
+  text-shadow: 2rem;
+  box-shadow: grey;
 }
 h1 {
   font-family: "Parisienne", cursive;
