@@ -15,6 +15,7 @@
     "core-js": "^3.15.1",
     "iframe": "^1.0.0",
     "nuxt": "^2.15.7",
+    "nuxt-imagemin": "^1.0.0",
     "nuxt-video-player": "^1.0.17"
   },
   "devDependencies": {

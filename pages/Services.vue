@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Nav />
+    <Nav class="nav_bar" />
+    <img class="promo" src="../static/service_promo.png">
   </div>
 </template>
 
@@ -15,5 +16,14 @@ export default {
 </script>
 
 <style>
-
+.promo{
+  height: 100%;
+  width: 100%;
+}
+.nav_bar{
+  background-image: url('static/hero2.jpg');
+  background-size: cover;
+  background-position-y: 19%;
+  opacity: 90%;
+}
 </style>

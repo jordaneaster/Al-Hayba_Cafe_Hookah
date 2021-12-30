@@ -44,7 +44,9 @@ footer{
   position: fixed;
   grid-area: 5/1/span 1/span 4;
 }
-
+html{
+  background-color: white;
+}
 .body{
   grid-area: 3/1/span 1/span 4;
   display: flex;
@@ -52,6 +54,7 @@ footer{
   justify-content: space-between;
  background-image: url('static/hero3.jpg');
   background-size: cover;  width: 100%;
+  padding: 6px;
 }
 .body2{
   grid-area: 2/1/span 1/span 4;
@@ -59,6 +62,7 @@ footer{
   flex-direction: row;
   justify-content: space-between;
   background-color: black;
+  padding: 6px
 }
 .body3{
   grid-area: 4/1/span 1/span 4;
@@ -68,6 +72,7 @@ footer{
   background-image: url('static/hero3.jpg');
   background-size: cover;
   width: 100%;
+  padding: 6px;
 }
 .container{
   display: grid;
@@ -82,7 +87,7 @@ footer{
   background-image: url('static/hero2.jpg');
   background-size: cover;
   background-position-y: 19%;
-  opacity: 80%;
+  opacity: 90%;
 }
 footer{
   grid-area: 5/1/span 1/span 4;

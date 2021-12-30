@@ -25,7 +25,7 @@
           </nuxt-link>
           <nuxt-link to="/services">
             <li class="link2">
-              Hookah Services
+              Services
             </li>
           </nuxt-link>
           <nuxt-link to="/reservations">
@@ -55,7 +55,7 @@
           </nuxt-link>
         </ul>
         <div class="hours_div">
-          <h1>
+          <h1 class="hours_open">
             (440)-555-5555
           </h1>
           <h1 class="hours_open">
@@ -115,7 +115,7 @@ color: black;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 .hours_open{
 color: black;
@@ -130,6 +130,7 @@ color: black;
 }
 .link2{
   color: black;
+  padding: 0.3rem;
 }
 nav ul {
   display: flex;
