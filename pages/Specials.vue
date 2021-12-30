@@ -18,10 +18,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .special__container{
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 400px 1fr;
+  grid-template-rows: 325px 1fr;
 }
 .navigation{
   position: fixed;
@@ -45,6 +46,6 @@ border-color: white;
 }
 .banner{
 display: grid;
-grid-row-start: 2;
+grid-area: 2/1/span 1/span 4;
 }
 </style>

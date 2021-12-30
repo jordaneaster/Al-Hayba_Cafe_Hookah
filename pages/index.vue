@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="nav_bar">
-      <Nav />
+      <Nav class="navigation" />
     </div>
     <div class="body">
       <Body />
@@ -34,7 +34,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 footer{
   width: 100%;
   background-color:firebrick;
@@ -83,11 +83,17 @@ html{
   margin: 0;
 }
 .nav_bar{
+  position: fixed;
   grid-area: 1/1/span 1/span 4;
+  display: grid;
+  width: 100%;
+}
+.navigation{
+  height: 395px;
   background-image: url('static/hero2.jpg');
   background-size: cover;
   background-position-y: 19%;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 footer{
   grid-area: 5/1/span 1/span 4;
