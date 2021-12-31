@@ -1,6 +1,6 @@
 <template>
   <div class="special__container">
-    <div class="navigation">
+    <div class="navigation_special">
       <Nav class="nav_bar" />
     </div>
     <div class="banner">
@@ -24,7 +24,7 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 325px 1fr;
 }
-.navigation{
+.navigation_special{
   position: fixed;
   display: grid;
   grid-area: 1/1/span 1/span 4;

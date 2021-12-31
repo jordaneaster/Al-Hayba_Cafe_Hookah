@@ -32,7 +32,9 @@ export default {
     {
         transition: transform 0.2s ease;
     }
-
+    a{
+      color: transparent;
+    }
     .slide-enter,
     .slide-leave-to {
         transform: translateX(-100%);
@@ -58,7 +60,7 @@ export default {
         height: 100vh;
         z-index: 999;
         padding: 3rem 20px 2rem 20px;
-        width: 300px;
+        width: 350px;
     }
     .link{
       color: black;

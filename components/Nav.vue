@@ -1,81 +1,69 @@
 <template>
-  <nav>
-    <h1 class="title">
-      Al Hayba Hookah Lounge
-    </h1>
-    <ul>
-      <nuxt-link class="link" to="/">
-        <li>Home</li>
-      </nuxt-link>
-      <nuxt-link class="link" to="/Hours">
-        <li>About</li>
-      </nuxt-link>
-      <nuxt-link class="link" to="/Contact">
-        <li>Contact</li>
-      </nuxt-link>
-      <BurgerMenu />
-    </ul>
-    <SideMenu>
-      <Sidebar>
-        <ul class="sidebar-panel-nav">
-          <nuxt-link to="/">
-            <li class="link2">
-              Home
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/services">
-            <li class="link2">
-              Services
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/reservations">
-            <li class="link2">
-              Reservations
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/events">
-            <li class="link2">
-              Events
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/specials">
-            <li class="link2">
-              Specials
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/shop">
-            <li class="link2">
-              Smoke Shop
-            </li>
-          </nuxt-link>
-          <nuxt-link to="/rules">
-            <li class="link2">
-              Rules
-            </li>
-          </nuxt-link>
-        </ul>
-        <div class="hours_div">
-          <h1 class="hours_open">
-            (440)-555-5555
-          </h1>
-          <h1 class="hours_open">
-            CLOSED
-          </h1>
+  <div class="nav_container">
+    <nav class="head_banner">
+      <BurgerMenu class="burger" />
+    </nav>
+    <SideMenu class="side_menu">
+      <ul class="sidebar-panel-nav">
+        <nuxt-link to="/">
+          <li class="link2">
+            Home
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/services">
+          <li class="link2">
+            Services
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/reservations">
+          <li class="link2">
+            Reservations
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/events">
+          <li class="link2">
+            Events
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/specials">
+          <li class="link2">
+            Specials
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/shop">
+          <li class="link2">
+            Smoke Shop
+          </li>
+        </nuxt-link>
+        <nuxt-link to="/rules">
+          <li class="link2">
+            Rules
+          </li>
+        </nuxt-link>
+      </ul>
+      <div class="hours_div">
+        <h1 class="hours_open">
+          (440)-555-5555
+        </h1>
+        <h1 class="hours_open">
+          CLOSED
+        </h1>
+        <tr class="day_week">
+          Monday
+        </tr>
+        <h1 class="hours_open">
+          Open 5PM-2AM
+        </h1>
+        <div v-for="day in openDays" :key="day.id" class="days">
           <tr class="day_week">
-            Monday
+            {{
+              day
+            }}
           </tr>
-          <h1 class="hours_open">
-            Open 5PM-2AM
-          </h1>
-          <div v-for="day in openDays" :key="day.id" class="days">
-            <tr class="day_week">
-              {{ day }}
-            </tr>
-          </div>
         </div>
-      </Sidebar>
+      </div>
     </SideMenu>
-  </nav>
+  </div>
 </template>
 
 <script>
@@ -104,54 +92,61 @@ export default {
 }
 </script>
 
-<style scoped>
-.day_week{
-font-size: larger;
-color: black;
+<style>
+.burger {
+  position: fixed;
 }
-.hours_div{
-    color: bisque;
-    font-size: x-large;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    padding: 0.3rem;
+.day_week {
+  font-size: larger;
+  color: black;
 }
-.hours_open{
-color: black;
+.hours_div {
+  color: bisque;
+  font-size: x-large;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
 }
-.pages{
+.hours_open {
+  color: black;
+}
+.pages {
   width: 200px;
   height: 200px;
   position: relative;
 }
-.link{
-  color: bisque;
+.link {
+  color: none;
 }
-.link2{
-  color: black;
-  padding: 0.3rem;
+.link2:hover {
+  background-color: coral;
+  padding: 4px;
 }
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
   margin: auto;
   padding: 8px;
   border: 0.5rem;
   border-style: solid;
   border-radius: 8px;
   list-style: none;
-    }
+  width: 100%;
+  height: 100%;
+}
 li {
-  color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   font-stretch: semi-expanded;
   font-weight: 800;
   letter-spacing: 0.3rem;
   text-shadow: 2rem;
   box-shadow: grey;
+  list-style: none;
 }
 h1 {
   font-family: "Parisienne", cursive;
@@ -159,26 +154,10 @@ h1 {
   font-size: xx-large;
   text-shadow: 30%;
 }
-.title {
-  font-size: xx-large;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-.sidebar-panel-nav{
+.sidebar-panel-nav {
   display: flex;
   flex-direction: column;
   justify-content: left;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px grey, 0 0 20px grey, 0 0 30px bisque, 0 0 40px bisque,
-      0 0 50px bisque, 0 0 60px bisque, 0 0 60px bisque;
-  }
-  to {
-    text-shadow: 0 0 20px grey, 0 0 30px bisque, 0 0 40px bisque,
-      0 0 50px bisque, 0 0 60px bisque, 0 0 70px bisque, 0 0 80px bisque;
-  }
+  background-color: antiquewhite;
 }
 </style>
