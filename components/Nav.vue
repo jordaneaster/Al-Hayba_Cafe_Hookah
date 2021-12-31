@@ -145,7 +145,7 @@ nav ul {
     }
 li {
   color: white;
-  font-family:'Russo One', serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   font-stretch: semi-expanded;
   font-weight: 800;
