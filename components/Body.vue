@@ -1,20 +1,22 @@
 <template>
-  <div class="hero_container">
-    <nuxt-link to="/services">
-      <button class="btn" @click="log">
-        <img src="../static/Services.png">
-      </button>
-    </nuxt-link>
-    <nuxt-link to="/specials">
-      <button class="btn" @click="log">
-        <img src="../static/specials.png">
-      </button>
-    </nuxt-link>
-    <nuxt-link to="/reservations">
-      <button class="btn" @click="log">
-        <img src="../static/reservations.png">
-      </button>
-    </nuxt-link>
+  <div class="hero_containersw">
+    <div class="hero">
+      <div class="containerSize">
+        <nuxt-link to="/services">
+          <img class="imgs" src="../static/Services.png">
+        </nuxt-link>
+      </div>
+      <div class="containerSize">
+        <nuxt-link to="/specials">
+          <img class="imgs" src="../static/specials.png">
+        </nuxt-link>
+      </div>
+      <div class="containerSize">
+        <nuxt-link to="/reservations">
+          <img class="imgs" src="../static/reservations.png">
+        </nuxt-link>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -27,59 +29,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.row_b{
-  display: grid;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-.btn:hover{
-  background: bisque;
-}
-.btn:active{
-   background-color:goldenrod;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-img {
-  height: 500px;
-  width: 500px;
-  border-radius: 10px;
-}
-.hero_container {
-  height: 100%;
-  width: 100%;
-  color: bisque;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.hours {
-  height: 100%;
-  width: 100%;
-  grid-area: 1/1 / span 1 / span 1;
-  justify-items: stretch;
-}
-.reservation {
-  height: 100%;
-  width: 100%;
-  grid-area: 1/2 / span 1 / span 1;
-
-  justify-content: center;
-}
-.content {
-  height: 100%;
-  width: 100%;
-  grid-area: 1/3 / span 1 / span 1;
-  justify-content: center;
-}
-p {
-  font-size: 22pt;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-</style>
