@@ -1,9 +1,7 @@
 <template>
   <div>
-    <div class="container">
-      <div class="nav_bar">
+    <div class="containera">
         <Nav />
-      </div>
     </div>
     <div class="navigations">
       <h1 class="sm_titles">Follow Us On Social Media!</h1>

@@ -48,7 +48,7 @@ button:focus {
   z-index: 999;
   border: 0;
   border-radius: 0;
-  background-color: bisque;
+  background-color: white;
   pointer-events: all;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
