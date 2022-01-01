@@ -1,14 +1,16 @@
 <template>
   <div>
     <div class="containera">
-        <Nav />
+      <Nav />
     </div>
     <div class="navigations">
-      <h1 class="sm_titles">Follow Us On Social Media!</h1>
+      <h1 class="sm_titles">
+        Follow Us On Social Media!
+      </h1>
       <div class="sms">
-        <img class="fbs" src="../static/icn-facebook.svg" />
-        <img class="igs" src="../static/icn-instagram.svg" />
-        <img class="tws" src="../static/icn-negative.svg" />
+        <img class="fbs" src="../static/icn-facebook.svg">
+        <img class="igs" src="../static/icn-instagram.svg">
+        <img class="tws" src="../static/icn-negative.svg">
       </div>
       <Body />
       <HookahBar />
