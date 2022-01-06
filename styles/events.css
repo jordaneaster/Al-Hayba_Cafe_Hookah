@@ -1,0 +1,85 @@
+.fbs_e{
+    height: 50px;
+    width: 50px;
+}
+.igs_e{
+    height: 50px;
+    width: 50px;
+}
+.tws_e{
+    height: 50px;
+    width: 50px;
+}
+.event_img{
+height:500px;
+width:1000px;
+border: 4px;
+border-style: solid;
+border-radius: 1rem;
+border-color: bisque;
+}
+.event_schedule{
+    border: 4px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: bisque;
+    height:200px;
+    width: 500px;
+    justify-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.button_event{
+    color:crimson;
+    font-size: x-large;
+}
+.event_hero{
+    width: 100%;
+    height: 800px;
+    background-image: url('static/hookah_header.png');
+    background-size: 100% 100%;
+}
+.event_container{
+text-align: center;
+
+}
+.event_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.event_para{
+    color: bisque;
+    font-size: xx-large;
+    text-align:start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.para{
+    width: 500px;
+    background-color: grey;
+    border: 4px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: bisque;
+}
+.event_list-item{
+    color: bisque;
+    font-size: xx-large;
+    width: 500px;
+    list-style:square;
+    width: 500px;
+    background-color: grey;
+    border: 4px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: bisque;
+}
+.event_container{
+    background-color: black
+}
+.event_heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Calibri';
+    font-size: 44pt;
+}
