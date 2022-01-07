@@ -106,7 +106,7 @@ export default {
 }
 .hours_open {
   color: black;
-  font-style: normal;
+  font-style: normal !important;
 }
 .pages {
   width: 200px;
