@@ -103,6 +103,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 4px;
+  text-align: left;
 }
 .hours_open {
   color: black;
@@ -151,6 +152,7 @@ li {
   box-shadow: grey;
   list-style: none;
   font-style: normal;
+  text-align: left;
 }
 h1 {
   font-family: "Parisienne", cursive;
