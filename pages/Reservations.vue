@@ -3,7 +3,7 @@
     <Nav />
     <div class="container_form">
       <div class="box_form">
-        <h1 class="reser">Book Reservation Form</h1>
+        <h1 class="reser">Booking Now</h1>
         <div class="boxing">
           <form
             name="contactus"
@@ -18,7 +18,7 @@
               <input class="input" placeholder="Name" type="text" name="name" required />
             </div>
             <div>
-              <h1 class="name">Emil</h1>
+              <h1 class="name">Email</h1>
               <input class="input" type="email" placeholder="Email" name="email" required />
             </div>
             <div>
