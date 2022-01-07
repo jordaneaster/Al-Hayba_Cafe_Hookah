@@ -37,18 +37,18 @@
         </nuxt-link>
       </ul>
       <div class="hours_div">
-        <h1 class="hours_open">
+        <h4 class="hours_open">
           (440)-555-5555
-        </h1>
-        <h1 class="hours_open">
+        </h4>
+        <h4 class="hours_open">
           CLOSED
-        </h1>
+        </h4>
         <tr class="day_week">
           Monday
         </tr>
-        <h1 class="hours_open">
+        <h4 class="hours_open">
           Open 5PM-2AM
-        </h1>
+        </h4>
         <div v-for="day in openDays" :key="day.id" class="days">
           <tr class="day_week">
             {{
@@ -107,6 +107,9 @@ export default {
 .hours_open {
   color: black;
   font-style: normal !important;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .pages {
   width: 200px;
