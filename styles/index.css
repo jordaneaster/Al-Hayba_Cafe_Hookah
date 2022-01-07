@@ -3,6 +3,12 @@
        padding: 0px !important;
        box-sizing: border-box;
    }
+   html{
+     background-color: black;
+   }
+   .main_phone{
+     padding: 4px;
+   }
    .fbs-index{
     height: 100%;
     width:100%;
@@ -19,6 +25,7 @@
     height: 800px;
     background-image: url('static/hookah_header.png');
     background-size: 100% 100%;
+    text-align: center;
   }
 .navigations{
     width: 100%;
@@ -41,15 +48,15 @@
     padding: 6px;
 }
 .fbs{
-    width: 13%;
+    width: 53%;
     height: 200px;
 }
 .igs{
-    width: 13%;
+    width: 53%;
     height: 200px;
 }
 .tws{
-    width:13%;
+    width:53%;
     height: 200px;
 }
 
@@ -156,15 +163,15 @@
       justify-content: space-around;
   }
   .fbs{
-      width: 10%;
+      width: 70%;
       height: 50px;
   }
   .igs{
-      width: 10%;
+      width: 70%;
       height: 50px;
   }
   .tws{
-      width:10%;
+      width:70%;
       height: 50px;
   }
   

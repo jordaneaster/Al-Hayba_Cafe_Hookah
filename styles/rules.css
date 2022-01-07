@@ -19,10 +19,11 @@
 .un{
     width: 100%;
     background: black;
+    text-align: center;
 }
 .imgw{
     width: 100%;
-    height: 500px;
+    height: 800px;
 }
 
 @media screen and (max-width: 800px) {
@@ -30,4 +31,7 @@
         height: 10%;
         width:10%;
     } 
+    .imgw {
+        height:auto;
+    }
 }

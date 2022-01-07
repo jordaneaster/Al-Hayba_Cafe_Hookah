@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="containera">
+      <h1>Open 5pm-2am Tuesday-Sunday </h1>
       <Nav />
     </div>
     <div class="navigations">
@@ -8,19 +9,21 @@
         Follow Us On Social Media!
       </h1>
       <div class="sms">
-        <img class="fbs" src="../static/icn-facebook.svg">
-        <img class="igs" src="../static/icn-instagram.svg">
-        <img class="tws" src="../static/icn-negative.svg">
+        <a href="https://facebook.com" target="_blank"><img class="fbs" src="../static/icn-facebook.svg"></a>
+        <a href="https://instagram.com" target="_blank"><img class="igs" src="../static/icn-instagram.svg"></a>
+        <a href="https://twitter.com" target="_blank"><img class="tws" src="../static/icn-negative.svg"></a>
       </div>
       <Body />
       <HookahBar />
       <Body2 />
       <Body3 />
-       <div class="foot-rules">
+      <div class="foot-rules">
         <a href="https://facebook.com" target="_blank"><img class="fbs-rules" src="../static/icn-facebook.svg"></a>
         <a href="https://instagram.com" target="_blank"><img class="fbs-rules" src="../static/icn-instagram.svg"></a>
         <a href="https://twitter.com" target="_blank"><img class="fbs-rules" src="../static/icn-negative.svg"></a>
-        <p class="al">&copy; Al Hayba Hookah Lounge</p>
+        <p class="al">
+          &copy; Al Hayba Hookah Lounge
+        </p>
       </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 <template>
   <div class="un">
+    <h1>Open 5pm-2am Tuesday-Sunday </h1>
     <Nav />
     <div class="event_hero" />
     <div class="rule_promo">
