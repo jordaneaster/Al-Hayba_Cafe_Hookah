@@ -1,0 +1,18 @@
+.special__container{
+    width: 100%;
+    overflow: hidden;
+}
+.banners{
+    width: 100%;
+}
+.promos{
+    width: 100%;
+    background-size: 100% 100%;
+}
+@media screen and (max-width: 600px) {
+    .promos{
+        width: 100%;
+        background-size: 100% 100%;
+        height: 300px;
+    }
+}

@@ -11,38 +11,49 @@
       Cater Your Next Event Here!
     </h1>
     <div class="event_para">
-      <p class="para">
-        Planning an event? Al Hayba Hookah Lounge has the perfect space available for you and your guests. Hosting and event can be a daunting task, we make it easier on the host with our plush rooms and amenities
-      </p>
+      <div class="abc">
+        <p class="paras">
+          Planning an event? Al Hayba Hookah Lounge has the perfect space
+          available for you and your guests. Hosting and event can be a daunting
+          task, we make it easier on the host with our plush rooms and amenities
+        </p>
+      </div>
+      <div class="abc">
+        <ul class="event_lists">
+          <li class="event_list_items">
+            2 Private Rooms
+          </li>
+          <li class="event_list_items">
+            Hookah Specials
+          </li>
+          <li class="event_list_items">
+            Drink Specials
+          </li>
+          <li class="event_list_items">
+            6 flat screens
+          </li>
+          <li class="event_list_items">
+            Music
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="abcc">
       <nuxt-link to="/reservations">
-        <button class="event_schedule">
-          <p class="button_event">
-            Schedule Now!
-          </p>
+        <button class="event_schedules">
+          Schedule Now!
         </button>
       </nuxt-link>
-      <ul class="event_list">
-        <li class="event_list-item">
-          2 Private Rooms
-        </li>
-        <li class="event_list-item">
-          Hookah Specials
-        </li>
-        <li class="event_list-item">
-          Drink Specials
-        </li>
-        <li class="event_list-item">
-          6 flat screens
-        </li>
-        <li class="event_list-item">
-          Music
-        </li>
-      </ul>
     </div>
     <div class="event_content">
-      <img class="event_img" src="../static/reservation4.jpg">
-      <img class="event_img" src="../static/reservation3.jpg">
+      <div>
+        <img class="event_img" src="../static/reservation4.jpg">
+      </div>
+      <div>
+        <img class="event_img" src="../static/reservation3.jpg">
+      </div>
     </div>
+
     <div class="event_sm">
       <img class="fbs_e" src="../static/icn-facebook.svg">
       <img class="igs_e" src="../static/icn-instagram.svg">
@@ -62,5 +73,4 @@ export default {
 </script>
 
 <style>
-
 </style>

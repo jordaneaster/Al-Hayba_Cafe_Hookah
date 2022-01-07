@@ -7,11 +7,6 @@
         </nuxt-link>
       </div>
       <div class="containerSize">
-        <nuxt-link to="/shop">
-          <img class="imgs" src="../static/smoke.png">
-        </nuxt-link>
-      </div>
-      <div class="containerSize">
         <nuxt-link to="/rules">
           <img class="imgs" src="../static/rules.png">
         </nuxt-link>
