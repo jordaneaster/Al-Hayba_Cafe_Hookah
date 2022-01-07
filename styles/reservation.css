@@ -1,22 +1,26 @@
 .container_form{
     width: 100%;
     height: auto;
+    height: 100vh;
     background: black;
     display: flex;
 }
 .name{
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
 }
 .box_form{
     width: 40%;
     margin: auto;
     background: rgb(13 17 23);
     height: auto;
-    padding: 20px;
     border-radius: 25px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 .reser{
     text-align: center;
@@ -25,8 +29,8 @@
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     color: white;
     margin: 0;
     line-height: 0px;
@@ -37,7 +41,7 @@
 }
 .input{
     width: 90%;
-    height: 35px;
+    height: 30px;
     border-radius: 10px;
     outline: none;
     padding-left: 10px;
@@ -59,4 +63,45 @@
     outline: none;
     padding-left: 10px;
     font-size: 14px;
+}
+@media screen and (max-width: 1500px) {
+    .container_form{
+        width: 100%;
+        height: auto;
+        height: 100vh;
+        background: black;
+        display: flex;
+    }
+}
+@media screen and (max-width: 800px) {
+    .box_form{
+        width: 90%;
+        margin: auto;
+        background: rgb(13 17 23);
+        height: auto;
+        border-radius: 25px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .name{
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        padding-top: 10px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .reser{
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 0px 6px 15px #d6caca;
+        font-weight: 500;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: white;
+        margin: 0;
+        line-height: 0px;
+    }
 }

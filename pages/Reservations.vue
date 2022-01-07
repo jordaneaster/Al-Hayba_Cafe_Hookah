@@ -4,7 +4,7 @@
     <div class="container_form">
       <div class="box_form">
         <h1 class="reser">
-          Book Reservation Form
+          Booking Now
         </h1>
         <div class="boxing">
           <form
@@ -23,7 +23,7 @@
             </div>
             <div>
               <h1 class="name">
-                Emil
+                Email
               </h1>
               <input class="input" type="email" placeholder="Email" name="email" required>
             </div>
