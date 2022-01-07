@@ -1,13 +1,33 @@
 .rule_promo{
     width: 100%;
+    text-align: center;
 }
 .fbs-rules{
-    height: 10%;
-    width:10%;
-}
+    height: 6%;
+    width:6%;
+} 
 .foot-rules{
     color: bisque;
     font-size: x-large;
-    /* display: flex;
-    justify-content: center; */
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.al{
+    margin: 0;
+}
+.un{
+    width: 100%;
+    background: black;
+}
+.imgw{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    .fbs-rules{
+        height: 10%;
+        width:10%;
+    } 
 }
