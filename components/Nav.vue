@@ -17,7 +17,7 @@
         </nuxt-link>
         <nuxt-link to="/reservations">
           <li class="link2">
-            Reservations
+            Book Now!
           </li>
         </nuxt-link>
         <nuxt-link to="/events">
@@ -28,11 +28,6 @@
         <nuxt-link to="/specials">
           <li class="link2">
             Specials
-          </li>
-        </nuxt-link>
-        <nuxt-link to="/shop">
-          <li class="link2">
-            Smoke Shop
           </li>
         </nuxt-link>
         <nuxt-link to="/rules">

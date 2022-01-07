@@ -2,6 +2,14 @@
     width: 100%;
     overflow: hidden;
 }
+.fbs-special{
+    height: 10%;
+    width:10%;
+}
+.foot{
+    color: bisque;
+    font-size: x-large;
+}
 .banners{
     width: 100%;
 }

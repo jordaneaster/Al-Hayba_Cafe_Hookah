@@ -16,6 +16,12 @@
       <HookahBar />
       <Body2 />
       <Body3 />
+      <div class="foot-index">
+        <a href="https://facebook.com" target="_blank"><img class="fbs-index" src="../static/icn-facebook.svg"></a>
+        <a href="https://instagram.com" target="_blank"><img class="fbs-index" src="../static/icn-instagram.svg"></a>
+        <a href="https://twitter.com" target="_blank"><img class="fbs-index" src="../static/icn-negative.svg"></a>
+        <p>&copy; Al Hayba Hookah Lounge</p>
+      </div>
     </div>
   </div>
 </template>
