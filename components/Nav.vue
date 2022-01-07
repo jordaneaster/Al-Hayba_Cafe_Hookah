@@ -94,6 +94,7 @@ export default {
 .day_week {
   font-size: larger;
   color: black;
+  font-style: normal;
 }
 .hours_div {
   color: bisque;
@@ -105,6 +106,7 @@ export default {
 }
 .hours_open {
   color: black;
+  font-style: normal;
 }
 .pages {
   width: 200px;
@@ -113,10 +115,12 @@ export default {
 }
 .link {
   color: none;
+  font-style: normal;
 }
 .link2:hover {
   background-color: coral;
   padding: 4px;
+  font-style: normal;
 }
 nav ul {
   display: flex;
@@ -131,6 +135,7 @@ nav ul {
   list-style: none;
   width: 100%;
   height: 100%;
+  font-style: normal;
 }
 li {
   color: black;
@@ -142,17 +147,20 @@ li {
   text-shadow: 2rem;
   box-shadow: grey;
   list-style: none;
+  font-style: normal;
 }
 h1 {
   font-family: "Parisienne", cursive;
   color: bisque;
   font-size: xx-large;
   text-shadow: 30%;
+  font-style: normal;
 }
 .sidebar-panel-nav {
   display: flex;
   flex-direction: column;
   justify-content: left;
   background-color: antiquewhite;
+  font-style: normal;
 }
 </style>
