@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="kaj">
     <Nav />
     <div class="container_form">
       <div class="box_form">
@@ -63,6 +63,12 @@
           </form>
         </div>
       </div>
+    </div>
+      <div class="foot-rules">
+      <a href="https://facebook.com" target="_blank"><img class="fbs-rules" src="../static/icn-facebook.svg"></a>
+      <a href="https://instagram.com" target="_blank"><img class="fbs-rules" src="../static/icn-instagram.svg"></a>
+      <a href="https://twitter.com" target="_blank"><img class="fbs-rules" src="../static/icn-negative.svg"></a>
+      <p class="al">&copy; Al Hayba Hookah Lounge</p>
     </div>
   </div>
 </template>
