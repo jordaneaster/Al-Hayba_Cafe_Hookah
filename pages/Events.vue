@@ -16,7 +16,7 @@
         <p class="paras">
           Planning an event? Al Hayba Hookah Lounge has the perfect space
           available for you and your guests. Hosting an event can be a daunting
-          task, we make it easier on the host with our plush rooms and amenities
+          task, we make it easier on the host with our plush rooms and amenities!
         </p>
       </div>
       <div class="abc">
