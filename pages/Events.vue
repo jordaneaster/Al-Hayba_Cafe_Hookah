@@ -54,10 +54,11 @@
       </div>
     </div>
 
-    <div class="event_sm">
-      <img class="fbs_e" src="../static/icn-facebook.svg">
-      <img class="igs_e" src="../static/icn-instagram.svg">
-      <img class="tws_e" src="../static/icn-negative.svg">
+    <div class="foot-rules">
+      <a href="https://facebook.com" target="_blank"><img class="fbs-rules" src="../static/icn-facebook.svg"></a>
+      <a href="https://instagram.com" target="_blank"><img class="fbs-rules" src="../static/icn-instagram.svg"></a>
+      <a href="https://twitter.com" target="_blank"><img class="fbs-rules" src="../static/icn-negative.svg"></a>
+      <p class="al">&copy; Al Hayba Hookah Lounge</p>
     </div>
   </div>
 </template>

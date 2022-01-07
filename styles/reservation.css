@@ -5,6 +5,9 @@
     background: black;
     display: flex;
 }
+.kaj{
+    background: black;
+}
 .name{
     margin: 0;
     padding: 0;
