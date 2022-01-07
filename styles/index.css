@@ -219,4 +219,18 @@
   .hookah2{
     width: 100%;
   }
+    .sidebar-panel{
+        width: 70%;
+        margin: 0;
+        overflow: hidden;
+        overflow-y: scroll;
+        text-align: left;
+    }
+    .sidebar-panel-nav{
+      margin: 0;
+      padding: 0px;
+    }
+    .hours_div{
+      padding-bottom: 60px;
+    }
   }
