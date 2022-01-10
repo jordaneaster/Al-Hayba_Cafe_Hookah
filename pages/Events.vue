@@ -31,7 +31,7 @@
             Drink Specials
           </li>
           <li class="event_list_items">
-            6 flat screens
+            8 flat screens
           </li>
           <li class="event_list_items">
             Music
