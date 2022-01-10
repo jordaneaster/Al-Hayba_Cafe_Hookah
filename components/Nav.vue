@@ -46,9 +46,9 @@
         <tr class="day_week">
           Monday
         </tr>
-        <h1 class="hours_open">
+        <h4 class="hours_open">
           Open 5PM-2AM
-        </h1>
+        </h4>
         <div v-for="day in openDays" :key="day.id" class="days">
           <tr class="day_week">
             {{
@@ -103,6 +103,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 4px;
+  text-align: left;
 }
 .hours_open {
   color: black;
@@ -152,6 +153,7 @@ li {
   box-shadow: grey;
   list-style: none;
   font-style: normal;
+  text-align: left;
 }
 h1 {
   font-family: "Parisienne", cursive;
