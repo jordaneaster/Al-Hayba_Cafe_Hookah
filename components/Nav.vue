@@ -15,11 +15,6 @@
             Services
           </li>
         </nuxt-link>
-        <nuxt-link to="/reservations">
-          <li class="link2">
-            Book Now!
-          </li>
-        </nuxt-link>
         <nuxt-link to="/events">
           <li class="link2">
             Events
@@ -35,11 +30,16 @@
             Rules
           </li>
         </nuxt-link>
+        <nuxt-link to="/reservations">
+          <li class="link2">
+            Book Now!
+          </li>
+        </nuxt-link>
       </ul>
       <div class="hours_div">
-        <h1 class="hours_open">
-          (440)-555-5555
-        </h1>
+        <a class="telly" href="tel:4405555555">
+          Click To Call Now! 440-555-5555
+        </a>
         <h1 class="hours_open">
           CLOSED
         </h1>
@@ -107,6 +107,10 @@ export default {
 .hours_open {
   color: black;
   font-style: normal;
+  text-decoration:none;
+}
+.telly{
+  color:black;
 }
 .pages {
   width: 200px;
