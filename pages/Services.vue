@@ -18,10 +18,13 @@
       <img class="promo" src="../static/newbeverage.png">
     </div>
     <div class="juice">
-      <img class="promo" src="../static/juice.png">
+      <img class="promo" src="../static/newjuice2.png">
     </div>
     <div class="hot">
-      <img class="promo" src="../static/hot.png">
+      <img class="promo" src="../static/newhotbev2.png">
+    </div>
+    <div class="food">
+      <img class="promo" src="../static/food2.png">
     </div>
     <div class="foot-rules">
       <a href="https://facebook.com" target="_blank"><img class="fbs-rules" src="../static/icn-facebook.svg"></a>

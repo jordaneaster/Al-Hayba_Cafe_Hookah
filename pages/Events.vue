@@ -15,8 +15,12 @@
       <div class="abc">
         <p class="paras">
           Planning an event? Al Hayba Hookah Lounge has the perfect space
-          available for you and your guests. Hosting an event can be a daunting
-          task, we make it easier on the host with our plush rooms and amenities!
+          available for you and your guests. Wedddings, engagement parties, work gatherings, funeral receptions, graduation parties. We can host up to 200 guests!
+        </p>
+        <p class="paras">
+          Call <a class="telly" href="tel:4403052618">
+            440-305-2618
+          </a> today or click below to fill out the form and schedule now!
         </p>
       </div>
       <div class="abc">

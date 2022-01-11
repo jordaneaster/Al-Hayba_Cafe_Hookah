@@ -37,8 +37,8 @@
         </nuxt-link>
       </ul>
       <div class="hours_div">
-        <a class="telly" href="tel:4405555555">
-          Click To Call Now! 440-555-5555
+        <a class="telly" href="tel:4403052618">
+          440-305-2618
         </a>
         <h1 class="hours_open">
           CLOSED
